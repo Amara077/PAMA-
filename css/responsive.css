@@ -1,11 +1,203 @@
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 900px) {
+    .navbar-brand {
+        font-size: 14px;
+    }
 
-}
+    .img-nav {
+        width: 20px;
+        margin-right: 10px;
+    }
 
-@media screen and (max-width: 576px) {
+    .hero-tagline h1 {
+        line-height: 55px;
+        font-size: 36px;
+    }
 
-}
+    .hero-tagline p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .img-hero {
+        width: 75%;
+        height: auto;
+        margin-bottom: 0;
+    }
 
-@media screen and (max-width: 350px) {
+    .img-2 {
+        width: 30%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .button-lg-primary {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .arrow {
+        height: 25px;
+    }
+
+    #about h2 {
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    
+    #about h6 {
+        font-weight: 500;
+    }
+
+    .kenal {
+        font-size: 12px;
+    }
+
+    #layanan h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .sub-title {
+        font-size: 13px;
+        margin: 0 5px 0 5px;
+    }
+
+  
+    #fitur {
+        padding: 50px 0 20px 0;
+    }
+
+    #fitur h2 {
+        font-size: 30px;
+    }
+
+    #fitur h6 {
+        font-size: 13px;
+    }
+
+    .img-fitur {
+        width: 300px;
+    }
+
+    .card-fitur .overlay {
+        height: 225px;
+    }
+
+    .card-fitur .overlay:hover {
+        height: 225px;
+    }
+
+    .card-fitur h5 {
+        font-size: 16px;    
+    }
+
+    .card-fitur span {
+        font-size: 12px;
+    }
+
+    .card-fitur button {
+        font-size: 12px;
+        font-weight: 500;
+        width: 110px;
+        height: 30px;
+    }
+
+    .items {
+        overflow-x: scroll;
+    }
+
+    #heroku {
+        height: 50vh;
+    }
+
+    .heroku-tagline h1 {
+        margin-top: 220px;
+        font-size: 30px;
+    }
+
+    #visi h3 {
+        font-size: 50px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    
+    #visi h6 {
+        font-size: 30px;
+        line-height: 17px;
+        margin: 0 0 15px 0;
+    }
+
+    #visi p {
+            font-size: 12px;
+        }
+
+    #misi h3 {
+        font-size: 50px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+
+    .image-visi {
+        width: 250px;
+    }
+
+    #misi h5 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-links {
+        font-size: 12px;
+    } 
+
+    .footer-distributed .footer-company-name {
+        font-size: 10px;
+    }
+    
+    .image-footer {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    #pengenalan h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    #pengenalan .container {
+        padding: 90px 15px 80px 15px;
+    }
+
+    #pengenalan p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    #contact .container {
+        padding: 110px 0 80px 0;
+    }
+
+    #contact h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    #contact h6 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .kontak a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .map-contact {
+        margin-top: 50px;
+        border-radius: 5%;
+    }
 
 }

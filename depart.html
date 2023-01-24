@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -23,11 +25,11 @@
   </head>
   <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="Assets/img/pama_logo.png" alt="" width="30" class="d-inline-block align-text-top me-3">
+            <img src="Assets/img/pama_logo.png" alt="" width="30" class="d-inline-block align-text-top img-nav">
             PT. Pamapersada Nusantara</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,14 +41,14 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Kami</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
-                  <li><a class="dropdown-item" href="#">Pengenalan</a></li>
+                <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item"  href="visimisi.html">Visi & Misi</a></li>
+                  <li><a class="dropdown-item"  href="about.html">Pengenalan</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Departement</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Departement</a>
+                <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">SM</a></li>
                   <li><a class="dropdown-item" href="#">OPR</a></li>
                   <li><a class="dropdown-item" href="#">FA</a></li>
@@ -130,29 +132,31 @@
         </div>
       </section>
 
-      <!-- FOOTER -->
-      <footer class="d-flex align-items-center position-relative">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7 d-flex align-items-center">
-              <img src="assets/img/pama_logo.png" alt="" width="30px">
-              <a href="#" class="ms-3">PT. Pamapersada Nusantara</a>
-            </div>
-            <div class="col-md-5 d-flex justify-content-evenly">
-              <a href="#">Beranda</a>
-              <a href="#">Tentang Kami</a>
-              <a href="#">Layanan</a>
-              <a href="#">Kontak</a>
-            </div>
-          </div>
-          <div class="row position-absolute copyright start-50 translate-middle">
-            <div class="col-md-12">
-              <p>Copyright &copy; 2023 - PT. Pamapersada Nusantara. All Right Reserved</p>
-            </div>
-          </div>
+       <!-- FOOTER -->
+       <footer class="footer-distributed">
+
+        <div class="footer-left">
+  
+          <a class="footer-links" href="#">
+            <img src="Assets/img/pama_logo.png" alt="" width="30" class="d-inline-block align-text-top me-3">
+            PT. Pamapersada Nusantara</a>
+  
+          <p class="footer-links">
+            <a href="#">Beranda</a>
+            ·
+            <a href="#">Tentang Kami</a>
+            ·
+            <a href="#">Depart</a>
+            ·
+            <a href="#">Kontak</a>
+          </p>
+  
+          <p class="footer-company-name mb-2">PT. Pamapersada Nusantara © 2023</p>
+          <a href="#"><i class="iconfooter fa-brands fa-facebook mx-2"></i></a>
+          <a href="#"><i class="iconfooter fa-brands fa-twitter mx-2"></i></a>
+          <a href="#"><i class="iconfooter fa-brands fa-instagram mx-2"></i></a>
+
         </div>
-      </div>
       </footer>
 
       <script src="js/script.js"></script>
